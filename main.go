@@ -28,10 +28,10 @@
 
         //fcontent := r.FormValue("linkedin_content")
 
-        values := map[string]string{"username": username, "password": password}
+        //values := map[string]string{"username": username, "password": password}
 
-        jsonValue, _ := json.Marshal(values)
+        //jsonValue, _ := json.Marshal(values)
 
-        resp, err := http.Post(authAuthenticatorUrl, "application/json", bytes.NewBuffer(jsonValue))
+        //resp, err := http.Post(authAuthenticatorUrl, "application/json", bytes.NewBuffer(jsonValue))
 
     }
